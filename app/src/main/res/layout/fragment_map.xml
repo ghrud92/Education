@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/map_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="성공"
+            android:textSize="20sp"
+            android:textColor="@color/sea"
+            android:layout_alignLeft="@id/map"
+            android:layout_alignBottom="@id/map_spinner"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/start_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="시작"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"/>
+
+        <Spinner
+            android:id="@+id/map_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/start_btn"
+            android:layout_alignTop="@id/start_btn"
+            android:layout_marginTop="10dp"
+            android:entries="@array/rounds"></Spinner>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="라운드"
+            android:textColor="#000000"
+            android:layout_toLeftOf="@id/map_spinner"
+            android:layout_alignBottom="@id/map_spinner"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="10dp"/>
+
+        <ImageView
+            android:id="@+id/map"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:background="@drawable/map_image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp"/>
+
+        <Button
+            android:id="@+id/action_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="실행"
+            android:layout_below="@id/map"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"/>
+
+        <ImageView
+            android:id="@+id/car"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/car"
+            android:visibility="gone"
+            android:layout_margin="50dp"/>
+
+        <ImageView
+            android:id="@+id/flag"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:visibility="gone"
+            android:src="@drawable/flag"/>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

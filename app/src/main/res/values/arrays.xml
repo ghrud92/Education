@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fences">
+        <item>바위</item>
+        <item>물웅덩이</item>
+    </string-array>
+    <string-array name="actions">
+        <item>전진</item>
+        <item>좌회전</item>
+        <item>우회전</item>
+    </string-array>
+    <string-array name="numbers">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="rounds">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <integer-array name="car_x">
+        <item>2</item>
+        <item>2</item>
+        <item>1</item>
+    </integer-array>
+    <integer-array name="car_y">
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+    </integer-array>
+    <integer-array name="flag_x">
+        <item>2</item>
+        <item>4</item>
+        <item>3</item>
+    </integer-array>
+    <integer-array name="flag_y">
+        <item>0</item>
+        <item>1</item>
+        <item>4</item>
+    </integer-array>
+    <integer-array name="rock_1_x">
+        <item>0</item>
+        <item>3</item>
+        <item>1</item>
+        <item>4</item>
+    </integer-array>
+    <integer-array name="rock_1_y">
+        <item>2</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
+    <integer-array name="rock_2_x">
+        <item>2</item>
+        <item>4</item>
+        <item>1</item>
+        <item>0</item>
+        <item>3</item>
+    </integer-array>
+    <integer-array name="rock_2_y">
+        <item>0</item>
+        <item>0</item>
+        <item>2</item>
+        <item>3</item>
+        <item>3</item>
+    </integer-array>
+    <integer-array name="rock_3_x">
+        <item>3</item>
+        <item>1</item>
+        <item>4</item>
+        <item>0</item>
+        <item>2</item>
+        <item>2</item>
+    </integer-array>
+    <integer-array name="rock_3_y">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
+</resources>
